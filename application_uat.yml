@@ -1,0 +1,13 @@
+#global configuration
+global:
+    profile: uat
+spring:
+  datasource:
+    driverClassName: com.mysql.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/test
+    username: test_user
+    password: test_password
+  jpa:
+    hibernate.ddl-auto: update
+    generate-ddl: true
+    show-sql: true

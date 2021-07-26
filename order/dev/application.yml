@@ -1,0 +1,7 @@
+#application-specific configuration
+profile: dev
+spring:
+    application:
+        name: order
+        version: 1.0.0
+        

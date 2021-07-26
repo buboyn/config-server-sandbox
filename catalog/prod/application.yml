@@ -1,0 +1,7 @@
+#application-specific configuration
+profile: prod
+spring:
+    application:
+        name: catalog
+        version: 1.0.0
+        
